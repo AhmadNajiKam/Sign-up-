@@ -1,6 +1,7 @@
 body {
   display: flex;
   background-color: ghostwhite;
+  height: 100vh;
 }
 
 .right {
@@ -61,7 +62,8 @@ input:focus {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 100%;
+  box-sizing: border-box;
   margin: 0;
   flex: 1;
 }
@@ -83,6 +85,7 @@ label {
   background-color: white;
   padding-left: 2rem;
   padding-bottom: 2rem;
-  box-shadow: 2px solid black;
+  box-shadow: #E5E7EB 5px 5px 5px;
   width: 100%;
+
 }
