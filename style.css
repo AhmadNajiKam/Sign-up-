@@ -1,0 +1,35 @@
+body {
+  display: flex;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+}
+
+.left {
+  background-image: url('treeImage.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 35vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.inputform div {
+  display: flex;
+  gap: 1rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputform {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
