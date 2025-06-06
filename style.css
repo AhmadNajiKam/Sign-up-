@@ -39,21 +39,24 @@ body {
 }
 
 input {
-  border: 2px solid #E5E7EB;
-  border-radius: 3px;
+  border: 1px solid #E5E7EB;
+  border-radius: 4px;
   outline: none;
+  padding: 3px;
+  padding-left: 7px;
   width: 120%;
 
 }
 
 
 input:focus {
-  border: 2px solid blue;
+  border: 1px solid blue;
+  box-shadow: #E5E7EB 0px 3px 5px;
 }
 
 #Password:invalid,
 #ConfirmPass:invalid {
-  border: 2px solid red;
+  border: 1px solid red;
 }
 
 .left {
@@ -88,4 +91,30 @@ label {
   box-shadow: #E5E7EB 5px 5px 5px;
   width: 100%;
 
+}
+
+button {
+  background-color: #596D48;
+  border: none;
+  border-radius: 5px;
+  width: 12rem;
+  height: 2.5rem;
+  font-weight: bold;
+  color: white;
+  font-size: 1rem;
+  box-shadow: #E5E7EB 8px 8px 8px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #596D48;
+  font-weight: 600;
+}
+
+.submitform {
+  padding: 2rem;
 }

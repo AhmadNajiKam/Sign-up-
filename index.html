@@ -19,49 +19,55 @@
   </div>
   <!--Input Part  -->
   <div class="right">
-    <div class="toptext">
-      <p>This is not a real online service! You know you need something<br>
-        like this in your life to help you realize your deepest dreams.<br>
-        Sign up <em>now</em> to get started.<br><br>
-        You <em>know</em> you want to.
-      </p>
-    </div>
-    <div class="inputform">
-      <p>Let's do this!</p>
-      <div>
-        <label for="FirstName"> FIRST NAME
-          <input type="text" id="FirstName" name="FirstName" required>
-        </label>
-
-        <label for="LastName"> LAST NAME
-          <input type="text" id="LastName" name="LastName" required>
-        </label>
+    <form action="/signin" method="post">
+      <div class="toptext">
+        <p>This is not a real online service! You know you need something<br>
+          like this in your life to help you realize your deepest dreams.<br>
+          Sign up <em>now</em> to get started.<br><br>
+          You <em>know</em> you want to.
+        </p>
       </div>
+      <div class="inputform">
+        <p>Let's do this!</p>
+        <div>
+          <label for="FirstName"> FIRST NAME
+            <input type="text" id="FirstName" name="FirstName" required>
+          </label>
 
-      <div>
-        <label for="Email"> EMAIL
-          <input type="email" id="Email" name="Email" required>
-        </label>
+          <label for="LastName"> LAST NAME
+            <input type="text" id="LastName" name="LastName" required>
+          </label>
+        </div>
 
-        <label for="PhoneNumber"> PHONE NUMBER
-          <input type="tel" id="PhoneNumber" name="PhoneNumber" required minlength="10" maxlength="12">
-        </label>
+        <div>
+          <label for="Email"> EMAIL
+            <input type="email" id="Email" name="Email" required>
+          </label>
+
+          <label for="PhoneNumber"> PHONE NUMBER
+            <input type="tel" id="PhoneNumber" name="PhoneNumber" required minlength="10" maxlength="12">
+          </label>
+
+        </div>
+
+        <div>
+          <label for="Password"> PASSWORD
+            <input type="password" id="Password" name="Password" minlength="8" maxlength="32">
+          </label>
+
+
+          <label for="ConfirmPass"> CONFIRM PASSWORD
+            <input type="password" id="ConfirmPass" name="ConfirmPass" minlength="8" maxlength="32">
+          </label>
+        </div>
 
       </div>
-
-      <div>
-        <label for="Password"> PASSWORD
-          <input type="password" id="Password" name="Password" minlength="8" maxlength="32">
-        </label>
-
-
-        <label for="ConfirmPass"> CONFIRM PASSWORD
-          <input type="password" id="ConfirmPass" name="ConfirmPass" minlength="8" maxlength="32">
-        </label>
+      <div class="submitform">
+        <button type="submit">Create Account</button>
+        <p>Already have an account? <a href="#">Log in</a>
+        </p>
       </div>
-
-    </div>
-    <div class="submitform"></div>
+    </form>
   </div>
 </body>
 
